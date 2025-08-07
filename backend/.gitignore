@@ -1,0 +1,18 @@
+
+/node_modules
+
+# Derlenmiş TypeScript dosyaları
+# Bu klasör, 'npm run build' komutuyla kaynak koddan oluşturulur.
+/dist
+
+# Ortam değişkenleri (Gizli Kalmalı!)
+# Bu dosya, veritabanı şifreleri gibi hassas bilgileri içerir ve ASLA paylaşılmamalıdır.
+.env
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editör ayarları
+.vscode
