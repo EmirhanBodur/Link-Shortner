@@ -30,14 +30,14 @@ export const Form = ({
       />
       <div className="relative">
         <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-500 dark:text-slate-400 sm:text-sm">
-          kurumsal.link/
+          link.emirhanbodur.dev/
         </span>
         <input
           type="text"
           value={customAlias}
           onChange={(e) => setCustomAlias(e.target.value)}
           placeholder="ozel-isminiz (opsiyonel)"
-          className="w-full pl-36 pr-4 py-3 bg-white dark:bg-slate-700 border border-slate-300 dark:border-slate-600 rounded-lg text-slate-800 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-blue-500 focus:outline-none transition-shadow"
+          className="w-full pl-40 pr-4 py-3 bg-white dark:bg-slate-700 border border-slate-300 dark:border-slate-600 rounded-lg text-slate-800 dark:text-slate-200 placeholder-slate-400 dark:placeholder-slate-500 focus:ring-2 focus:ring-blue-500 focus:outline-none transition-shadow"
         />
       </div>
       <button
